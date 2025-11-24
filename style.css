@@ -1,29 +1,81 @@
 @charset "UTF-8";
 
 body {
-    background-color: rgb(0, 0, 0);
+    background-image: linear-gradient(to right, #F2F2F2, #0D0D0D );
 }
+
+body.paginaBillie {
+    background-image: linear-gradient(to right, #01060D, #105773 );
+}
+
+
+.botonscolor {
+    background-image: linear-gradient(to right, #BFBFBF, #404040);
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px black;
+    width: 300px;
+    padding: 10px;
+    
+}
+
+.botonscolorbillie {
+    background-image: linear-gradient(to right, #012840, #20638C);
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px black;
+    width: 300px;
+    padding: 10px;
+    
+}
+
+.fotogrande {
+    background-image: linear-gradient(to right, #BFBFBF, #404040);
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px black;
+    width: 800px;
+    padding: 10px;
+    
+}
+
+main {
+    background-image: linear-gradient(to right, #BFBFBF, #404040);
+    box-shadow: 5px 5px 15px black;
+    width: 300px;
+    padding: 10px;
+    
+}
+
+.mainbillie {
+    background-image: linear-gradient(to right, #011526, #20638C);
+    box-shadow: 5px 5px 15px black;
+    width: 300px;
+    padding: 10px;
+    
+}
+audio {
+    color: #105773;
+}
+
 h1   {
-    color: aliceblue;
+    color: rgb(0, 0, 0);
 }
 h2   {
-    color: aliceblue;
+    color: rgb(0, 0, 0);
 }
 h3   {
-    color: aliceblue;
+    color: rgb(0, 0, 0);
 }
 p    {
-    color: aliceblue;
+    color: rgb(0, 0, 0);
 }
 ol   {
-    color: aliceblue;
+    color: rgb(0, 0, 0);
 }
 ul   {
-    color: aliceblue;
+    color: rgb(0, 0, 0);
 }
 pre  {
-    color: aliceblue;
+    color: rgb(0, 0, 0);
 }
 a    {
-    color: aliceblue;
+    color: rgb(0, 0, 0);
 }
