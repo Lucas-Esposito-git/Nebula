@@ -2,26 +2,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Playwrite+US+Trad&display=swap');
 
 body {
-    background-image: linear-gradient(to right, #F2F2F2, #0D0D0D );
+    background-image: linear-gradient(to right, #F2F2F2, #FFA1BD );
 }
 
+
 body.paginaBillie {
-    background-image: linear-gradient(to right, #01060D, #105773 );
+    background-image: linear-gradient(45deg, #01060D, #012840, #166e91 );
     background-size: 500% 500%;
+    width: 100%;
+    min-height: 100vh;
     animation: slideGradient 10s ease infinite;
 }
 
-@keyframes slideGradient {
-    0% {
-        background-position: 100% 50%; 
-    }
-    50% {
-        background-position: 0% 50%;  
-    } 
-    100% {
-        background-position: 100% 50%; 
-    }
-}
 body.paginaLana {
     background-image: linear-gradient(to right, #000000, #c4c4c4 );
     background-size: 500% 500%;
@@ -39,7 +31,13 @@ body.paginaLana {
         background-position: 100% 50%; 
     }
 }
-
+#container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
 h1.tituloBillie {
     font-family: "Playwrite US Trad", cursive;
     font-size: 70px;
@@ -119,18 +117,20 @@ h1.tituloLana {
 
     animation: slideGradient 10s ease infinite;
 }
-
+.botonscolor a {
+    text-decoration: none; 
+    color: inherit;        
+}
 .botonscolor {
-    background-image: linear-gradient(to right, #BFBFBF, #404040);
+    background-image: linear-gradient(to right, #ffffff, #FFA1BD);
     border-radius: 15px;
     box-shadow: 5px 5px 15px black;
     padding: 10px 25px;
-
     display: block;      
     width: 250px;     
     margin: 20px auto;   
     text-align: center;        
-    color: black;
+    color: rgb(255, 255, 255);
     
 }
 .botaoinicial{
@@ -143,7 +143,6 @@ h1.tituloLana {
 .botonscolorbillie {
     background-image: linear-gradient(to right, #012840, #20638C);
     border-radius: 15px;
-    box-shadow: 5px 5px 15px black;
     width: 300px;
     padding: 10px;
     margin: 20px auto;
@@ -183,7 +182,7 @@ h1.tituloLana {
     text-align: center;
 }
 .fotogrande {
-    background-image: linear-gradient(to right, #BFBFBF, #404040);
+    background-image: linear-gradient(to right, #ffffff, #ffffff);
     border-radius: 15px;
     box-shadow: 5px 5px 15px black;
     width: 800px;
@@ -214,7 +213,7 @@ main {
         0 0 75px rgb(11, 56, 151);
     width: 300px;
     padding: 10px;
-    margin: 20px auto;
+    margin: 20px;
     animation: ledGradient 10s ease infinite;
     
 }
